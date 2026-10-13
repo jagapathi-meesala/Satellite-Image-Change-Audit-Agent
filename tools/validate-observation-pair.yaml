@@ -1,0 +1,13 @@
+name: validate-observation-pair
+description: Validate required metadata, area-summary values, dates, cloud cover,
+  and basic comparability.
+input_schema:
+  type: object
+  additionalProperties: false
+  required:
+  - pair
+  properties:
+    pair:
+      type: object
+      additionalProperties: true
+      description: Object containing before and after observation records.

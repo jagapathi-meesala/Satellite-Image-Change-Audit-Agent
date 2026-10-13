@@ -1,23 +1,25 @@
-spec_version: "0.1.0"
+spec_version: 0.1.0
 name: satellite-image-change-audit-agent
-version: "1.0.0"
-description: Audits two satellite-image observation summaries for documented land-cover changes, data quality issues, and evidence gaps without claiming pixel-level remote-sensing analysis.
+version: 1.0.0
+description: Audits two satellite-image observation summaries for documented land-cover
+  changes, data quality issues, and evidence gaps without claiming pixel-level remote-sensing
+  analysis.
 author: jagapathi-meesala
 license: MIT
 skills:
-  - image-pair-quality-review
-  - land-cover-change-audit
-  - evidence-reporting
+- image-pair-quality-review
+- land-cover-change-audit
+- evidence-reporting
 tools:
-  - validate_observation_pair
-  - compare_change_observations
-  - build_audit_report
+- validate-observation-pair
+- compare-change-observations
+- build-audit-report
 runtime:
   max_turns: 5
   temperature: 0.2
   timeout: 30
 tags:
-  - satellite-imagery
-  - change-detection
-  - geospatial
-  - audit
+- satellite-imagery
+- change-detection
+- geospatial
+- audit

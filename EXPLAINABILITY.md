@@ -9,7 +9,7 @@ It validates the records, checks comparability, computes class-area deltas, and 
 ## Limits
 The agent does not read satellite raster files, run image registration, classify pixels, or establish causation. Cloud cover, sensor differences, seasonal variation, projection mismatch, classification error, and inconsistent footprints can create apparent change.
 
-## Tool: validate_observation_pair
+## Tool: validate-observation-pair
 
 ### Inputs and Data Sources
 Two observation dictionaries supplied by the caller.
@@ -29,7 +29,7 @@ Malformed or absent fields are reported without silently substituting values.
 ### Human Review
 Resolve all validation errors and verify metadata against the original imagery before relying on the comparison.
 
-## Tool: compare_change_observations
+## Tool: compare-change-observations
 
 ### Inputs and Data Sources
 A validated pair of observation records.
@@ -49,7 +49,7 @@ Invalid pairs return actionable validation messages rather than a misleading com
 ### Human Review
 Review large or unexpected differences in GIS using co-registered imagery and suitable reference data.
 
-## Tool: build_audit_report
+## Tool: build-audit-report
 
 ### Inputs and Data Sources
 The before/after records, computed comparison, and validation findings.
