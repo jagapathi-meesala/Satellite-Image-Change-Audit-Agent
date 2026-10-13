@@ -1,0 +1,14 @@
+name: build_audit_report
+description: Build a traceable JSON report with validation, class-area deltas, limitations, and next steps.
+input_schema:
+  type: object
+  additionalProperties: false
+  required: [pair]
+  properties:
+    pair:
+      type: object
+      additionalProperties: true
+    min_area_delta_km2:
+      type: number
+      minimum: 0
+      default: 0.1

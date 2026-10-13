@@ -1,0 +1,26 @@
+{
+  "before": {
+    "image_id": "scene-2024-05",
+    "acquired_at": "2024-05-10",
+    "sensor": "ExampleSat-A",
+    "footprint_id": "tile-42",
+    "cloud_cover_pct": 8,
+    "class_area_km2": {
+      "forest": 12.4,
+      "water": 2.1,
+      "built_up": 3.0
+    }
+  },
+  "after": {
+    "image_id": "scene-2025-05",
+    "acquired_at": "2025-05-12",
+    "sensor": "ExampleSat-A",
+    "footprint_id": "tile-42",
+    "cloud_cover_pct": 12,
+    "class_area_km2": {
+      "forest": 11.8,
+      "water": 2.3,
+      "built_up": 3.4
+    }
+  }
+}
